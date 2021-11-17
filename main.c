@@ -11,8 +11,7 @@ int main()
     int f = fork();
 
     if (f)
-    {
-        
+    {      
         f = fork();
     }
 
